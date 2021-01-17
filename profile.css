@@ -1,0 +1,36 @@
+body{
+    background: rgb(241, 240, 240);
+}
+/*User profile */
+.container .information-flex{
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.information-flex div{
+    height: 30px;
+}
+nav .navbar-collapse{
+    display: flex;
+    justify-content: center;
+}
+/*Grade*/
+.container div:nth-of-type(1) span{
+    border-bottom: 3px solid rgb(0, 0, 200);
+    background: white;
+}
+/*Manage*/
+#search{
+    max-width: 50%;
+}
+@media(max-width: 576px){
+    h3{
+        font-size: 1.5em;
+    }
+
+    .dropdown-item,div,.alert,.row,span{
+        font-size: small;
+    }
+}
